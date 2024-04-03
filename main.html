@@ -5,11 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siesa Pruebas</title>
 </head>
-<body>
-    <h2 style="color: rgb(11, 226, 165); font-size: large;">Abrir consola</h2>
-    
+<body style="margin: 0; padding: 0;">
+    <form id="formularioPunto17" style="background-color: rgb(169, 215, 255); padding: 45px;">
+        <h2 class="title" style="margin: 0; margin-bottom: 20px;">Ingrese 2 números enteros para ser divididos</h2>
+        <input type="text" id="numero1" placeholder="Primer número">
+        <input type="text" id="numero2" placeholder="Segundo número">
+        <input type="submit" value="Dividir">
+        <div style="margin-top: 10px;">
+            <input type="text" id="division" disabled>
+        </div>
+    </form>
+
+    <form id="formularioPunto18" style="background-color: rgb(163, 255, 192); padding: 45px; margin-top: 20px;">
+        <h2 class="title" style="margin: 0; margin-bottom: 20px;">Ingrese un número y su base</h2>
+        <input type="text" id="numero3" placeholder="Número">
+        <input type="text" id="numero4" placeholder="Base del número">
+        <input type="submit" value="calcular">
+        <div style="margin-top: 10px;">
+            <input type="text" id="resultado" disabled>
+        </div>
+    </form>
+
+
     <script src="./punto17.js"></script>
-    <!-- <script src="./punto18.js"></script> -->
+    <script src="./punto18.js"></script>
     <!-- <script src="./punto19.js"></script> -->
 </body>
 </html>
